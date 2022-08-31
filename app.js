@@ -14,6 +14,7 @@ function checkType(param){
 }
 console.log(checkType([1,2,3,4,5,6]))
 
+//Check weather the given variable name is valid or not
 const checkVarName = (param) => {
     let regEx = /[^A-z|$|_]/ //this will check wether these characters are there if it has any other characters other than those mentioned in the regex if we use .test it will return true if it finds any other character or it will return false if no new characters other than A-z|$|_ are found it will return false. ^ is used to find something that is NOT in a given data.
     let matchUsingTest = regEx.test(param)
