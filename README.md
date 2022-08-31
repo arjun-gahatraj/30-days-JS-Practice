@@ -1,3 +1,3 @@
 # 30-days-JS-Practice
 
-Random JS practice codes
+Random JS practice codes.
