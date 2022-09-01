@@ -44,3 +44,12 @@ const checkVarName = (param) => {
 
 console.log(checkVarName("_full_Name"))
 
+//function to reverse a given country array
+function reverseCountries(countries){
+    let arrCopy = countries.slice(0)
+    
+    let reverseCountries = countries.reverse(); //used .reverse() array method to reverse an array.
+    return reverseCountries;
+}
+console.log(reverseCountries(['tokyo','japan','russia','korea']))
+
